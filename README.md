@@ -13,7 +13,7 @@ The following is required to run the program.
 3. A working emulator or Android phone to use the app
 
 ## Visual
-![Android Quiz image](Android-Quiz-SS1.jpg)
+![Android Quiz image](android-quiz-ss1.jpg)
 
 ## Happy Path
  - open application in Android Studio
@@ -29,3 +29,5 @@ This application was created using Android Studio 3.1.4 <br />
 
 ## Credits
 Tutorial provided by Udacity's Android Basics Nanodegree Program.
+
+Research on how to display a Toast message: https://www.javatpoint.com/android-toast-example
