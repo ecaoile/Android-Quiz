@@ -13,7 +13,7 @@ The following is required to run the program.
 3. A working emulator or Android phone to use the app
 
 ## Visual
-![pizza planet image](Android-Quiz-SS1.jpg)
+![Android Quiz image](Android-Quiz-SS1.jpg)
 
 ## Happy Path
  - open application in Android Studio
