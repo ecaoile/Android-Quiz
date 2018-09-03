@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Android Quiz</string>
+
+    <string name="question_1">1. Which of these is the official language for Android development?</string>
+    <string name="Java">Java</string>
+    <string name="Python">Python</string>
+    <string name="CSharp">C#</string>
+    <string name="JavaScript">JavaScript</string>
+    <string name="submit">Submit</string>
+
+    <string name="question_2">2. What layout do you use when you want to align views one by one
+    vertically or horizontally?</string>
+
+    <string name="question_3">3. Which of the following are current or past versions of Android? </string>
+    <string name="biscuit">Biscuit</string>
+    <string name="nougat">Nougat</string>
+    <string name="eclair">Eclair</string>
+
+    <string name="question_4">4. What is the highest API level for Android Ice Cream Sandwich? </string>
 </resources>
