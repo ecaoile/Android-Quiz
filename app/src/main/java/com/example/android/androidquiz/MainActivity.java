@@ -7,6 +7,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -108,14 +109,16 @@ public class MainActivity extends AppCompatActivity {
     public void displayScore(int score)
     {
         TextView scoreView = (TextView)findViewById(R.id.score);
-
+        String scoreMessage;
         if (score == 4)
         {
-            scoreView.setText("Your score: " + score + " out of 4" + "\nPerfect score! Congrats!");
+            scoreMessage = "Your score: " + score + " out of 4" + "\nPerfect score! Congrats!";
         }
         else
         {
-            scoreView.setText("Your score: " + score + " out of 4");
+            scoreMessage = "Your score: " + score + " out of 4";
         }
+        Toast.makeText(getApplicationContext(),scoreMessage,Toast.LENGTH_SHORT).show();
+        scoreView.setText(scoreMessage);
     }
 }
