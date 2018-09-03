@@ -1,5 +1,5 @@
 # Android Quiz
-Quiz App for Udacity Android Basic Nanodegree Program
+Quiz App for Udacity Android Basic Nanodegree Program <br />
 **Author**: Earl Jay Caoile <br />
 **Version**: 1.0.0
 
